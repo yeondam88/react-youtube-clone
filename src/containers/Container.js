@@ -8,18 +8,30 @@ const opts = {
 };
 
 class Container extends Component {
+  state = {
+    videos: []
+  };
+
   componentDidMount() {
-    search("javascript", opts, function(err, results) {
+    search("javascript", opts, (err, results) => {
       if (err) return console.log(err);
 
-      console.dir(results);
+      this.setState(
+        {
+          videos: results
+        },
+        () => {
+          console.dir(results);
+          console.log("fetched the videos");
+        }
+      );
     });
   }
 
   render() {
     return (
       <div className="container">
-        <VideoContainer />
+        <VideoContainer videos={this.state.videos} />
       </div>
     );
   }

@@ -5,7 +5,7 @@ class VideoContainer extends Component {
   render() {
     return (
       <div className="columns">
-        <VideoPlayer className="column is-8" />
+        <VideoPlayer className="column is-8" videos={this.props.videos} />
         <PlayList className="column is-4" />
       </div>
     );

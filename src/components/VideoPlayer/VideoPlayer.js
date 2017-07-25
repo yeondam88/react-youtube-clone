@@ -3,12 +3,12 @@ import VideoDetail from "../VideoDetail/VideoDetail";
 
 class VideoPlayer extends Component {
   render() {
+    const video = this.props.videos.map(video => {
+      return <VideoDetail details={video} />;
+    });
     return (
       <div className="column is-8">
-        <div className="image">
-          <img src="https://placehold.it/800x500" />
-        </div>
-        <VideoDetail />
+        {video}
       </div>
     );
   }

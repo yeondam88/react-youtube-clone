@@ -1,6 +1,6 @@
 # YouTube clone React App
 ## Fetching YouTube video via YouTube API v3 with Search Helper Library.
-## Tect Stacks
+## Tech Stacks
   + React
   + Lodash
   + Youtube-api-search

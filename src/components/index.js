@@ -1,6 +1,5 @@
 import Header from "./Header/Header";
-import VideoPlayer from "./VideoPlayer/VideoPlayer";
 import VideoDetail from "./VideoDetail/VideoDetail";
-import PlayList from "./PlayList/PlayList";
+import VideoPlayList from "./VideoPlayList/VideoPlayList";
 
-export { Header, VideoPlayer, VideoDetail, PlayList };
+export { Header, VideoDetail, VideoPlayList };

@@ -60,3 +60,145 @@ body {
   font-size: 13px;
   padding: 5px 10px;
 }
+
+.panel-block {
+  transition: 0.8s ease;
+}
+
+.panel-block:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.set {
+  padding: 45px 0;
+  border-bottom: 1px solid #7f8c8d;
+}
+span {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #34495e;
+}
+.loading.hop > * {
+  animation-name: letter-hop;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+.loading.hop > *:nth-child(1) {
+  animation-delay: .1s;
+}
+.loading.hop > *:nth-child(2) {
+  animation-delay: .2s;
+}
+.loading.hop > *:nth-child(3) {
+  animation-delay: .3s;
+}
+.loading.hop > *:nth-child(4) {
+  animation-delay: .4s;
+}
+.loading.hop > *:nth-child(5) {
+  animation-delay: .5s;
+}
+.loading.hop > *:nth-child(6) {
+  animation-delay: .6s;
+}
+.loading.hop > *:nth-child(7) {
+  animation-delay: .7s;
+}
+.loading.spin > * {
+  animation-name: letter-spin;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+.loading.spin > *:nth-child(1) {
+  animation-delay: .1s;
+}
+.loading.spin > *:nth-child(2) {
+  animation-delay: .2s;
+}
+.loading.spin > *:nth-child(3) {
+  animation-delay: .3s;
+}
+.loading.spin > *:nth-child(4) {
+  animation-delay: .4s;
+}
+.loading.spin > *:nth-child(5) {
+  animation-delay: .5s;
+}
+.loading.spin > *:nth-child(6) {
+  animation-delay: .6s;
+}
+.loading.spin > *:nth-child(7) {
+  animation-delay: .7s;
+}
+.loading.zoom > * {
+  animation-name: letter-zoom;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linier;
+}
+.loading.zoom > *:nth-child(1) {
+  animation-delay: .1s;
+}
+.loading.zoom > *:nth-child(2) {
+  animation-delay: .2s;
+}
+.loading.zoom > *:nth-child(3) {
+  animation-delay: .3s;
+}
+.loading.zoom > *:nth-child(4) {
+  animation-delay: .4s;
+}
+.loading.zoom > *:nth-child(5) {
+  animation-delay: .5s;
+}
+.loading.zoom > *:nth-child(6) {
+  animation-delay: .6s;
+}
+.loading.zoom > *:nth-child(7) {
+  animation-delay: .7s;
+}
+.loading.back-flip > * {
+  animation-name: letter-back-flip;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linier;
+  transform-origin: 0px 0px;
+}
+.loading.back-flip > *:nth-child(1) {
+  animation-delay: .1s;
+}
+.loading.back-flip > *:nth-child(2) {
+  animation-delay: .2s;
+}
+.loading.back-flip > *:nth-child(3) {
+  animation-delay: .3s;
+}
+.loading.back-flip > *:nth-child(4) {
+  animation-delay: .4s;
+}
+.loading.back-flip > *:nth-child(5) {
+  animation-delay: .5s;
+}
+.loading.back-flip > *:nth-child(6) {
+  animation-delay: .6s;
+}
+.loading.back-flip > *:nth-child(7) {
+  animation-delay: .7s;
+}
+/*
+ * Letter hopping loading animation
+ */
+@keyframes letter-hop {
+  from {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(0px, -10px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}

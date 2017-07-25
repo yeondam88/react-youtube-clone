@@ -10,9 +10,11 @@
 
 ```
 git clone "https://github.com/yeondam88/react-youtube-clone.git"
+To run locally.
 yarn add
 yarn start
-
+To build
+yarn build
 ```
 
 

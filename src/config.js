@@ -1,4 +1,4 @@
 export const opts = {
   maxResults: 10,
-  key: process.env.API_KEY
+  key: "AIzaSyBWkl0ifhleMNpS1rh03OFU-PRIxIye3JQ"
 };
